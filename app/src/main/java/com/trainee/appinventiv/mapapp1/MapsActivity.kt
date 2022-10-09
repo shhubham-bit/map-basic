@@ -106,10 +106,14 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , GoogleMap.OnPolyl
     override fun onPolylineClick(p0: Polyline) {
         // get callback when click on polyline
     }
+
+
+
 }
 
 
 
+// hello
 fun Context.bitmapDescriptorFromVector(vectorResId:Int): BitmapDescriptor {
     val vectorDrawable = ContextCompat.getDrawable(this, vectorResId)
     vectorDrawable!!.setBounds(0, 0, vectorDrawable.intrinsicWidth, vectorDrawable.intrinsicHeight)
